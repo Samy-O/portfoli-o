@@ -9,6 +9,8 @@
   },
   {
     "group": "Work",
-    "items": [{ "label": "Projects", "page": "projects" }]
+    "items": [
+      { "label": "Project One", "page": "project-one" }
+    ]
   }
 ]

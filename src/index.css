@@ -55,13 +55,17 @@ body {
 }
 
 #root {
-  min-height: 100svh;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ── Doc-style layout ── */
 .layout {
   display: flex;
-  min-height: 100svh;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .sidebar {
@@ -69,9 +73,6 @@ body {
   flex-shrink: 0;
   border-right: 1px solid var(--border);
   padding: 32px 0;
-  position: sticky;
-  top: 0;
-  height: 100svh;
   overflow-y: auto;
   box-sizing: border-box;
 }
@@ -137,6 +138,7 @@ body {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  overflow-y: auto;
 }
 
 .content {

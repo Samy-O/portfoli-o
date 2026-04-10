@@ -1,11 +1,10 @@
 import { MDXProvider } from '@mdx-js/react'
 import { components } from '../mdx-components'
-import AboutContent from '../content/about.mdx'
 
-export default function About() {
+export default function ContentPage({ Content }) {
   return (
     <MDXProvider components={components}>
-      <AboutContent />
+      <Content />
     </MDXProvider>
   )
 }
