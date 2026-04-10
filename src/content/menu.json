@@ -1,0 +1,14 @@
+[
+  {
+    "group": null,
+    "items": [{ "label": "Home", "page": "home" }]
+  },
+  {
+    "group": "About",
+    "items": [{ "label": "About Me", "page": "about" }]
+  },
+  {
+    "group": "Work",
+    "items": [{ "label": "Projects", "page": "projects" }]
+  }
+]
